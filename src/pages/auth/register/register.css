@@ -1,0 +1,52 @@
+.register-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 6rem;
+    gap: 3rem;
+}
+
+.register-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 25rem;
+    gap: .5rem;
+}
+
+.register-page h3 {
+    font-size: 2rem;
+}
+
+.register-form div {
+    gap: .2rem;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.register-form div input {
+    width: 91%;
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+}
+
+.register-form button {
+    width: 25rem;
+    max-width: 40rem;
+    background: red;
+    border-radius: .3rem;
+    padding: .5rem 3rem;
+    margin-top: 1.5rem;
+}
+
+.register-form button:hover {
+    cursor: pointer;
+    background: darkred;
+    transition: all .25s ease-in-out;
+}
